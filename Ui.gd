@@ -3,6 +3,7 @@ extends CanvasLayer
 signal start_pause
 signal step
 signal clear
+signal speed_changed(speed)
 
 var is_paused = true
 
@@ -19,9 +20,9 @@ func _ready():
 
 func _on_StartButton_pressed():
 	if is_paused:
-		$StartButton.text = "Pause"
+		$HBoxContainer/StartButton.text = "Pause"
 	else:
-		$StartButton.text = "Run"
+		$HBoxContainer/StartButton.text = "Run"
 	is_paused = !is_paused	
 	emit_signal("start_pause")
 
@@ -33,8 +34,12 @@ func _on_StepButton_pressed():
 func _on_ClearButton_pressed():
 	if !is_paused:
 		emit_signal("start_pause")
-		$StartButton.text = "Run"
+		$HBoxContainer/StartButton.text = "Run"
 		is_paused = true
 	emit_signal("clear")
 	
 	
+
+
+func _on_SpinBox_value_changed(value):
+	emit_signal("speed_changed",$HBoxContainer/SpinBox.value)

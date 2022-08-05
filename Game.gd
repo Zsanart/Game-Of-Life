@@ -5,6 +5,7 @@ var height = 48
 var board
 #var updated_tiles = {}
 var live_cells = {}
+var speed = 0.4
 
 var dragging = false
 
@@ -114,3 +115,9 @@ func _on_step():
 
 func _on_clear():
 	setup()
+
+
+func _on_speed_changed(new_speed):
+	#speed = new_speed
+	print("asd")
+	$Timer.wait_time = new_speed
