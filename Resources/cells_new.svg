@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="32"
+   height="16"
+   viewBox="0 0 8.4666665 4.2333333"
+   version="1.1"
+   id="svg593"
+   sodipodi:docname="cells_new.svg"
+   inkscape:version="1.2.1 (9c6d41e410, 2022-07-14)"
+   inkscape:export-filename="cells.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview595"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="true"
+     inkscape:zoom="16.871996"
+     inkscape:cx="1.1853962"
+     inkscape:cy="2.5486018"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1">
+    <inkscape:grid
+       type="xygrid"
+       id="grid714"
+       spacingx="0.26458333"
+       spacingy="0.26458333"
+       empspacing="4"
+       originx="0"
+       originy="0" />
+  </sodipodi:namedview>
+  <defs
+     id="defs590">
+    <linearGradient
+       id="linearGradient1403"
+       inkscape:swatch="gradient">
+      <stop
+         style="stop-color:#278ad2;stop-opacity:1;"
+         offset="0"
+         id="stop1399" />
+      <stop
+         style="stop-color:#14537c;stop-opacity:0.75480771;"
+         offset="1"
+         id="stop1401" />
+    </linearGradient>
+    <filter
+       inkscape:label="In and Out"
+       inkscape:menu="Shadows and Glows"
+       inkscape:menu-tooltip="Inner colorized shadow, outer black shadow"
+       style="color-interpolation-filters:sRGB"
+       id="filter566"
+       x="-1.2958381"
+       y="-1.295838"
+       width="4.2665919"
+       height="4.2665917">
+      <feGaussianBlur
+         result="result0"
+         in="SourceAlpha"
+         stdDeviation="4"
+         id="feGaussianBlur560" />
+      <feOffset
+         dx="5"
+         dy="5"
+         result="result4"
+         id="feOffset562" />
+      <feComposite
+         in="SourceGraphic"
+         in2="result4"
+         operator="xor"
+         result="result3"
+         id="feComposite564" />
+    </filter>
+    <filter
+       inkscape:label="In and Out"
+       inkscape:menu="Shadows and Glows"
+       inkscape:menu-tooltip="Inner colorized shadow, outer black shadow"
+       style="color-interpolation-filters:sRGB;"
+       id="filter1170"
+       x="-2.591957"
+       y="-2.5919353"
+       width="7.5338545"
+       height="7.5337998">
+      <feGaussianBlur
+         result="result0"
+         in="SourceAlpha"
+         stdDeviation="4"
+         id="feGaussianBlur1164" />
+      <feOffset
+         dx="5"
+         dy="5"
+         result="result4"
+         id="feOffset1166" />
+      <feComposite
+         in="SourceGraphic"
+         in2="result4"
+         operator="xor"
+         result="result3"
+         id="feComposite1168" />
+    </filter>
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="fill:#c4ccd2;fill-opacity:1;stroke-width:0.00124727"
+       id="rect2733-5-0"
+       width="8.4666662"
+       height="4.2333331"
+       x="-1.5543122e-15"
+       y="8.9190671e-08" />
+    <rect
+       style="fill:#278ad2;fill-opacity:1;stroke:#292929;stroke-width:0.02645833;stroke-dasharray:none;stroke-opacity:1"
+       id="rect1322"
+       width="4.2070599"
+       height="4.2070189"
+       x="4.24646"
+       y="0.01314701" />
+    <rect
+       style="fill:#3695da;fill-opacity:1;stroke:#292929;stroke-width:0.00052917;stroke-opacity:1;filter:url(#filter1170);stroke-dasharray:none"
+       id="rect1322-77"
+       width="3.7038672"
+       height="3.7038982"
+       x="4.4979167"
+       y="0.26455218" />
+    <rect
+       style="fill:#bbc4cb;fill-opacity:1;stroke:#292929;stroke-width:0.0264583;stroke-dasharray:none;stroke-opacity:1"
+       id="rect1322-7"
+       width="4.2068748"
+       height="4.2068748"
+       x="0.0065887016"
+       y="0.0065887016" />
+  </g>
+</svg>
